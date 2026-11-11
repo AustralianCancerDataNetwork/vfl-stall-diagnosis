@@ -1,0 +1,2 @@
+2026-11-07T04:17:29Z t1_plain_1000 cols=1000 tls=0 completed 5s
+2026-11-07T04:17:44Z t2_tls_1000 cols=1000 tls=1 completed 5s

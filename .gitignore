@@ -1,0 +1,24 @@
+# Private keys and certificate requests: never commit
+*.key
+*.csr
+*.srl
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+flwr_env*/
+
+# Raw recordings (kept out of the repository)
+*.pcap
+diagnosis/runs/
+series_b/results/*/*/
+raw_data/
+
+# Client outputs
+diagnosis/clients/*/results/banknote/*
+!diagnosis/clients/*/results/banknote/.gitkeep
+
+# macOS
+.DS_Store
